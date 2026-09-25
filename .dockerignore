@@ -1,0 +1,57 @@
+# Git
+.git
+.gitignore
+
+# CI/CD configs
+azure-pipelines.yml
+Dockerfile
+Dockerfile.*
+.dockerignore
+
+# Documentation
+README.md
+*.md
+movie_shop_backend/explicaciones.md
+testing/HandsOn.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[oc]
+*.egg-info/
+.eggs/
+
+# Entornos virtuales locales
+.venv/
+movie_shop_backend/.venv/
+testing/.venv/
+
+# Cachés
+.pytest_cache/
+movie_shop_backend/.pytest_cache/
+testing/.pytest_cache/
+.uv-cache/
+
+# Logs y reports
+*.log
+*.out
+*.err
+reports/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
